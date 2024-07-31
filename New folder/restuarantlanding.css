@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #eee3da;
+    background-size: cover;
+
+}
+
+.navbar1 {
+    background-color: #eee3da !important;
+}
+
+.hed1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.span1 {
+    color: orange;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.anchor1 {
+    color: black;
+
+}
+
+.anchor1:hover {
+    color: orange !important;
+    text-shadow: 5px 5px 10px orange;
+
+}
+
+.image1 {
+    height: 40PX;
+    width: 40px;
+    background-color: black !important;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.image1-home {
+    border-radius: 100%;
+    color: #eee3da;
+    transition: 0.3s;
+}
+
+.image1-home:hover {
+    border-radius: 50%;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px black;
+}
+
+.span2-home {
+    color: orange;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.heading-home1 {
+    font-family: Times New Roman;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.span3-home {
+    color: orange;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.para1-home {
+    color: grey;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.button1-home {
+    background-color: #FF8C00;
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+    height: 40px;
+    width: 170px;
+    box-shadow: 5px 5px 10px #FF8C00;
+    transition: 0.3s;
+}
+
+.button1-home:hover {
+    background-color: black;
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.1);
+}
+
+.span-about {
+    color: orange;
+    font-family: "Caveat";
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #FF8C00;
+}
+
+.head1-about {
+    font-family: "Bree Serif";
+    font-size: 35px;
+    text-shadow: 5px 5px 10px grey;
+
+}
+
+.image1-about {
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.image1-about:hover {
+
+    transform: scale(1.1);
+
+}
+
+.head2-about {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.para-about {
+    color: grey;
+    font-family: "Roboto";
+    font-style: italic;
+}
+
+.head1-menu {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.span1-menu {
+    color: orange;
+    font-family: "Caveat";
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #FF8C00;
+}
+
+.card1-menu {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.image-menu {
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.image-menu:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px grey;
+}
+
+.para1 {
+    color: orange;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.span2-menu {
+    color: black;
+}
+
+.card-service {
+    background-color: white;
+
+}
+
+.card-service:hover {
+    background-color: orange;
+    color: white !important;
+}
+
+.size {
+    font-size: 60px;
+    color: black !important;
+}
+
+.para-service {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.image-customer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.head-customer {
+    font-size: 30px;
+}
+
+.para1-contact {
+    color: orange;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.colo-contact {
+    color: white;
+}
+
+.icon {
+    color: orange;
+}
+
+.bg-container-reserve {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+form input {
+    border: 0;
+    background-color: #f5f5f5;
+    color: white !important;
+}
+
+form input :hover {
+    background-color: white !important;
+}
+
+.bg-breakfast {
+    background-color: #eee3da;
+    border-radius: 10px;
+}
+
+.image1-breakfast {
+    border-radius: 50%;
+}
+
+.head-breakfast {
+    font-size: 20px;
+    font-family: "Times New Roman";
+}
+
+.para-breakfast {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.button-breakfast {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    height: 100%;
+
+    box-shadow: 5px 5px 10px white;
+    transition: 0.3s;
+}
+
+.button-breakfast:hover {
+    background-color: #ff033e;
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 5px 5px 10px #ff033e;
+}
+
+.span-price {
+    color: green;
+}
