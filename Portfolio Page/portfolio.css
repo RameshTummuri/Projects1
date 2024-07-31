@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#color {
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+#color:hover {
+    color: #4b6cc1;
+    text-shadow: 0px 5px 5px 10px #4b6cc1;
+
+}
+
+.contain {
+    font-size: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #4b6cc1;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.bg-container-banner {
+    background-color: black;
+
+    background-size: cover;
+
+}
+
+.image-banner {
+    border-radius: 50%;
+    width: 75%;
+}
+
+.span-banner {
+    color: #4b6cc1;
+}
+
+.heading-banner {
+    color: white;
+    font-size: 60px;
+    font-family: "Roboto";
+}
+
+.button1-banner {
+    color: white;
+    background-color: #4b6cc1;
+    padding: 15px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.button1-banner:hover {
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.paragraph-banner {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.about-me-section {
+    background-color: #323f4b;
+}
+
+.about-me-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-image {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.skills-section {
+    background-color: #1f2933;
+}
+
+.skills-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.para1-projects {
+    color: #cced00;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.bg-container-projects {
+    background-color: #3e4c59;
+}
+
+.head1-projects {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.bg-container2-projects {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.para2-projects {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.anchor-projects {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.para3-projects {
+    color: #9aa5b1;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.para1-services {
+    color: #cced00;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bg-container-services {
+    background-color: #52606d;
+}
+
+.card1-services {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.image1-services {
+    height: 60px;
+    width: 60px;
+}
+
+.head1-services {
+    color: white;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para2-services {
+    color: #9aa5b1;
+    font-size: 28px;
+}
+
+.work-done-section {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png);
+    background-size: cover;
+}
+
+.hr-line {
+    background-color: white;
+    width: 60px;
+}
+
+.work-done-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.work-done-card-sub-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.bg-container-footer {
+    background-color: #0d2436;
+    background-size: cover;
+
+}
+
+.image1-footer {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.head1-footer {
+    color: #cced00;
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.para1-footer {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.icon1-footer {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.bg-container1-footer {
+    background-color: #001c32;
+    background-size: cover;
+}
